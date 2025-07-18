@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Flexbox for the header */
+.navbar-container {
+    display: flex; /* Makes this div a flex container */
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center; /* Vertically centers the logo and links */
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: 000080;
+    text-decoration: none;
+    margin-left: 20px; /* Space between the links */
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-links a:hover {
+    background-color: yellow;
+    border-radius: 4px;
+}
