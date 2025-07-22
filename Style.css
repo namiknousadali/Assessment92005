@@ -8,7 +8,7 @@ body {
     display: flex; /* Makes this div a flex container */
     justify-content: space-between; /* Pushes logo to left, links to right */
     align-items: center; /* Vertically centers the logo and links */
-    background-color: #FF0000;
+    background-color: #008000;
     color: white;
     padding: 10px 20px;
 }
